@@ -1,0 +1,52 @@
+
+.CrystalCollector {
+    height: 200px;
+    width: 400px;
+    margin: 1rem;
+    background: orange;
+     
+   
+}
+
+.content {
+    width: 600px;
+    height: 500px;
+    background-color: khaki;
+    margin: 1rem;
+}
+
+.winsAndLosses{
+    float: left;
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 1rem;
+    background-color: aqua;
+}
+
+.numberToMatch {
+    float: left;
+    display: block;
+    width: 250px;
+    height: 200px;
+    margin: 1rem;
+    background-color:greenyellow;
+}
+
+.gems {
+    float: left;
+
+
+}
+
+.userTotal{
+    float: left;
+
+
+}
+
+.gemsImage {
+  
+    width: 175px;
+    height: 225px;
+}
