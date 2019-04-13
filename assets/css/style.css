@@ -33,11 +33,7 @@
     background-color:greenyellow;
 }
 
-.gems {
-    float: left;
 
-
-}
 
 .userTotal{
     float: left;
@@ -45,8 +41,16 @@
 
 }
 
-.gemsImage {
-  
-    width: 175px;
-    height: 225px;
+.gemImage {
+    width: 200px;
+    height: 265px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.content{
+
+    text-align: center;
 }
