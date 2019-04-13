@@ -1,6 +1,6 @@
 var randomNumber = Math.floor(Math.random() * 120) + 19
 var numberWins = 0
-var numberLoses = 0
+var numberLosses = 0
 var userTotal = 0
 
 // generate rand om number from 19-120
@@ -25,11 +25,27 @@ $(".gemImage").on("click", function (event) {
     var value = $(this).data("value")
     userTotal += value
     $("#finalTotal").html(userTotal)
+    // if number adds up to total random you win
+    $("#numberWins").text(numberWins)
+    if (userTotal === randomNumber) {
+        alert('you win')
+        numberWins++;
+        $("#numberWins").text(numberWins)
+
+    }
+
+    else if (userTotal >= randomNumber) {
+        alert('you lose')
+        numberLosses++;
+        $("#numberLosses").text(numberLosses)
+
+    }
 
 })
 $("#randomNumber").html(randomNumber)
 
 // if number adds up to total random you win
+
 
 // reset once number matched is equal
 // count wins and loses
